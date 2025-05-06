@@ -54,7 +54,12 @@ python train.py
 ## 结果  
 - **测试集准确率**：93.2%  
 - **评估指标**：精确率93.5%，召回率92.8%，F1分数93.1%（详见训练日志及图表）。  
-- **训练曲线**：包含损失曲线和准确率曲线，展示训练集/验证集性能变化（文件：`loss_curve.png`, `accuracy_curve.png`）。  
+- **训练曲线**：包含损失曲线和准确率曲线，展示训练集/验证集性能变化
+### 1. 损失曲线  
+![Training and Validation Loss](loss_curve.png)  
+
+### 2. 准确率曲线  
+![Training and Validation Accuracy](accuracy_curve.png)  
 
 
 ## 贡献  
